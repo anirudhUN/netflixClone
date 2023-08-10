@@ -1,0 +1,137 @@
+
+.banner{
+    position: relative;
+    margin-top: -10px;
+    /* z-index:-2; */
+  }
+  .carousel-item{
+    object-fit: contain!important;
+    height: 450px;
+    background-image:
+      linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+  }
+  
+  
+  .carousel-caption-left {
+  text-align: left!important;
+  width: 80%;
+  margin-left: -130px;
+  /* padding-top: px; */
+  height:220px;
+  }
+  .title{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .rating{
+    font-weight: 650;
+  }
+  .play-button{
+    border:0;
+    color:white;
+    outline: line;
+    font-weight: 500;
+    border-radius: 0.4vw;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #E50914;
+    text-transform: uppercase;
+  }
+  .play-button:hover{
+    background-color: white;
+    color:rgba(0, 0, 0);
+  }
+  
+  .movie-content{
+    width: 60rem;
+    line-height: 1.3;
+    padding-top:0.6rem ;
+    font-size: 0.9rem;
+    max-width: 360px;
+    height: 80px;
+  }
+  .custom-carousel .carousel-control-prev,
+  .custom-carousel .carousel-control-next {
+    display: none;
+  }
+  
+  .custom-carousel .carousel-indicators{
+    display: none;
+  }
+  
+  .footer{
+    position:absolute;
+    top:20px;
+    height: 20rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.103),black);
+  
+  }
+
+  @media only screen and (max-width: 1000px) and (min-width:601px){
+    .carousel-caption-left{
+      width:80%;
+      margin-left: -100px;
+      margin-right: auto;
+      padding: 0 1rem;
+      height: auto;
+    }
+    .backdrop{
+      height: 450px;
+      width: 100%;
+      max-width: 100%;
+    }
+    .movie-carousel{
+      object-fit: contain;
+    }
+  }
+
+  @media only screen and (max-width: 600px){
+    .carousel-item{
+      height:220px
+    }
+ 
+    .movie-content{
+      display: none;
+    }
+    .backdrop{
+      height: 240px;
+      width: 100%;
+      max-width: 100%;
+  
+    }
+
+    .carousel-caption-left{
+      width:90%;
+      margin-left: -45px;
+      /* margin-right:-2px; */
+      /* margin-top: -200px; */
+      margin-bottom: -25px;
+      /* padding: 0 1rem; */
+      text-align: left;
+      height: auto;
+      
+    }
+    .title{
+      font-size: 22px;
+      font-weight: 700;
+    }
+    .footer{
+      display: none;
+    }
+    .play-button{
+      background-color: rgba(255, 255, 255, 0.692);
+      color: rgb(46, 46, 46);
+      font-weight: 400;
+      font-size: 14px;
+    border-radius: 7px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    
+    }
+  }

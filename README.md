@@ -1,3 +1,8 @@
+# SIGNIN credentials
+
+username- user@mail.com
+password- Password
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
