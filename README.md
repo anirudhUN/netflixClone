@@ -16,6 +16,12 @@ This is a Netflix clone project that replicates some of the key functionalities 
 You can see a live demo of this project [here](https://streamflixapp.netlify.app/).
 Username: user@mail.com
 Password: Password
+![Screenshot 2024-04-29 192139](https://github.com/Aniirudh/netflixClone/assets/71401267/fb262f1a-eb26-42ff-b051-74070b2e5e98)
+![Screenshot 2024-04-29 205809](https://github.com/Aniirudh/netflixClone/assets/71401267/83a6b90f-524d-440b-9956-8336b549571f)
+![Screenshot 2024-04-29 205744](https://github.com/Aniirudh/netflixClone/assets/71401267/43536f96-5859-42c0-be5a-7ff12d1e26fe)
+![Screenshot 2024-04-29 205713](https://github.com/Aniirudh/netflixClone/assets/71401267/79201776-a71a-474d-a40f-cc8d41b3bf95)
+![Screenshot 2024-04-29 205627](https://github.com/Aniirudh/netflixClone/assets/71401267/b42e894a-fa7a-4444-bf11-35abaa7265b6)
+
 
 ## Features
 
@@ -23,7 +29,6 @@ Password: Password
 - Movie and TV show details page.
 - Navigation bar for easy navigation between sections.
 - Movie player for watching trailers of selected movies/TV shows.
-- ...
 
 ## Installation
 
